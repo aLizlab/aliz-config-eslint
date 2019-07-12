@@ -10,6 +10,11 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
+  env: {
+    browser: true,
+    node: true,
+    serviceworker: true,
+  },
   extends: [
     'plugin:vue/recommended',
     'plugin:prettier/recommended',
@@ -18,11 +23,6 @@ module.exports = {
     '@nuxtjs',
     'prettier',
   ],
-  env: {
-    browser: true,
-    node: true,
-    serviceworker: true,
-  },
   rules: {
     'prettier/prettier': [
       'off',
