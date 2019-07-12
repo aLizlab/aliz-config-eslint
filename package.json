@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is aLiz eslint",
   "author": "aLiz",
-  "private": true,
   "scripts": {
     "lint": "eslint . --rulesdir eslint/rule",
     "watch": "npm test -- --watch --growl",
